@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcb1df860df22474dba0dbed3fd87aa0, type: 3}
+  m_Name: A2 B2
+  m_EditorClassIdentifier: 
+  storyText: "A l'instant ou tu d\xE9cides de te cach\xE9 une arme appara\xEEt dans
+    la main de l\u2019humano\xEFde et il se retourne lentement \r.\n\nQue fais tu
+    ?\r\n\r\n1 : Tu cours le plus loin possible\r\n2 : Tu montes sur un arbre"
+  nextStates:
+  - {fileID: 11400000, guid: 6ab2d3279156c8a4b9723852e80f9151, type: 2}
+  - {fileID: 11400000, guid: ebce95dea3d54864081f30279b22784d, type: 2}

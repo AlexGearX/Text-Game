@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcb1df860df22474dba0dbed3fd87aa0, type: 3}
+  m_Name: A0 . Begin
+  m_EditorClassIdentifier: 
+  storyText: "Vous \xEAtes \xE0 l'exterieur de votre maison , vous apercevez une
+    train\xE9 lumineuse dans le ciel qui viens ....\nDans votre direction ! Vous
+    avez \xE0 peine le temps de cach\xE9 votre visage que l'objet atterit devant
+    vous , vous relevez la t\xEAte et remarquez que le mysterieux objet tomb\xE9
+    du ciel est un livre !\n\nLe livre est imposant et des sortes de glyphes semble
+    le recouvrir.\r\n\nQue faites vous ? \r\n\r\n1: Ramasser le livre\r\n2: Le laisser\n3:
+    L'analyser de loin"
+  nextStates:
+  - {fileID: 11400000, guid: 80214ddbe58c9f14284f6f0a0f6ea8a2, type: 2}
+  - {fileID: 11400000, guid: c74c1af477707a64ab8b1a6cb67bb198, type: 2}
+  - {fileID: 11400000, guid: 4c7ede9959b45ab439f1a39b45737338, type: 2}

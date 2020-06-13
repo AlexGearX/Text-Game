@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcb1df860df22474dba0dbed3fd87aa0, type: 3}
+  m_Name: A2
+  m_EditorClassIdentifier: 
+  storyText: "Le livre se met \xE0 rayonner\r\nLe livre se change en une forme humano\xEFde
+    vous tournant le dos \r\n\r\n1 : Tu l'attaques\r\n2 : Tu te caches"
+  nextStates:
+  - {fileID: 11400000, guid: e2356db466aea3f4fac7c665c9202c47, type: 2}
+  - {fileID: 11400000, guid: c416e66bdaac42b41b7e28f495c38ee7, type: 2}

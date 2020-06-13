@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcb1df860df22474dba0dbed3fd87aa0, type: 3}
+  m_Name: A3
+  m_EditorClassIdentifier: 
+  storyText: "Tu regardes le livre de loin et tu remarque qui les glyphes sur la
+    couverture brille comme si ils \xE9taient vivant.\n\r\n1 :  Ramasse\r\n2 : Jette
+    une pierre dessus\r\n3 : Cherche \xE0 le d\xE9truire "
+  nextStates:
+  - {fileID: 11400000, guid: 80214ddbe58c9f14284f6f0a0f6ea8a2, type: 2}
+  - {fileID: 11400000, guid: c74c1af477707a64ab8b1a6cb67bb198, type: 2}
+  - {fileID: 11400000, guid: 643481efcd6520d48a19369b397b411f, type: 2}
